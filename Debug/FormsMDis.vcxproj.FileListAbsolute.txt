@@ -1,0 +1,9 @@
+C:\Users\TEO\source\repos\FormsMDis\Debug\FormsMDis.vcxproj.AssemblyReference.cache
+C:\Users\TEO\source\repos\FormsMDis\Debug\FormsMDis.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\TEO\source\repos\FormsMDis\Debug\FormsMDis.vcxproj.GenerateResource.cache
+C:\Users\TEO\source\repos\FormsMDis\Debug\FormsMDis.exe
+C:\Users\TEO\source\repos\FormsMDis\Debug\FormsMDis.FrmColombia.resources
+C:\Users\TEO\source\repos\FormsMDis\Debug\FormsMDis.FrmMenu.resources
+C:\Users\TEO\source\repos\FormsMDis\Debug\FormsMDis.Integrantes.resources
+C:\Users\TEO\source\repos\FormsMDis\Debug\FormsMDis.FrmCaribe.resources
+C:\Users\TEO\source\repos\FormsMDis\Debug\FormsMDis.FrmPeru.resources

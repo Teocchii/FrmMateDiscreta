@@ -1,0 +1,5 @@
+C:\Users\TEO\source\repos\FormsMDis\x64\Debug\FormsMDis.vcxproj.AssemblyReference.cache
+C:\Users\TEO\source\repos\FormsMDis\x64\Debug\FormsMDis.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\TEO\source\repos\FormsMDis\x64\Debug\FormsMDis.MyForm.resources
+C:\Users\TEO\source\repos\FormsMDis\x64\Debug\FormsMDis.vcxproj.GenerateResource.cache
+C:\Users\TEO\source\repos\FormsMDis\x64\Debug\FormsMDis.exe

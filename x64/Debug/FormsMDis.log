@@ -1,0 +1,4 @@
+﻿  MyForm.cpp
+C:\Users\TEO\source\repos\FormsMDis\MyForm.h(377,2): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+  MyForm.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  FormsMDis.vcxproj -> C:\Users\TEO\source\repos\FormsMDis\x64\Debug\FormsMDis.exe
