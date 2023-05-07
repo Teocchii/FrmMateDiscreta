@@ -73,32 +73,41 @@ namespace FormsMDis {
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(115, 238);
+			this->button1->BackColor = System::Drawing::SystemColors::ActiveCaption;
+			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->button1->Location = System::Drawing::Point(109, 290);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(84, 35);
+			this->button1->Size = System::Drawing::Size(86, 38);
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"Peru";
-			this->button1->UseVisualStyleBackColor = true;
+			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &FrmMenu::button1_Click);
 			// 
 			// button2
 			// 
-			this->button2->Location = System::Drawing::Point(239, 238);
+			this->button2->BackColor = System::Drawing::SystemColors::ActiveCaption;
+			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->button2->Location = System::Drawing::Point(244, 293);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(92, 35);
 			this->button2->TabIndex = 1;
 			this->button2->Text = L"Colombia";
-			this->button2->UseVisualStyleBackColor = true;
+			this->button2->UseVisualStyleBackColor = false;
 			this->button2->Click += gcnew System::EventHandler(this, &FrmMenu::button2_Click);
 			// 
 			// button3
 			// 
-			this->button3->Location = System::Drawing::Point(362, 238);
+			this->button3->BackColor = System::Drawing::SystemColors::ActiveCaption;
+			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->button3->Location = System::Drawing::Point(375, 293);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(92, 35);
 			this->button3->TabIndex = 2;
 			this->button3->Text = L"Caribe";
-			this->button3->UseVisualStyleBackColor = true;
+			this->button3->UseVisualStyleBackColor = false;
 			this->button3->Click += gcnew System::EventHandler(this, &FrmMenu::button3_Click);
 			// 
 			// label1
@@ -106,7 +115,7 @@ namespace FormsMDis {
 			this->label1->AutoSize = true;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Uighur", 48, static_cast<System::Drawing::FontStyle>((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic)),
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
-			this->label1->Location = System::Drawing::Point(178, 160);
+			this->label1->Location = System::Drawing::Point(176, 183);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(221, 75);
 			this->label1->TabIndex = 4;
@@ -114,33 +123,35 @@ namespace FormsMDis {
 			// 
 			// button4
 			// 
+			this->button4->BackColor = System::Drawing::SystemColors::GradientActiveCaption;
 			this->button4->Location = System::Drawing::Point(343, 461);
 			this->button4->Name = L"button4";
-			this->button4->Size = System::Drawing::Size(149, 62);
+			this->button4->Size = System::Drawing::Size(149, 49);
 			this->button4->TabIndex = 5;
 			this->button4->Text = L"Salir";
-			this->button4->UseVisualStyleBackColor = true;
+			this->button4->UseVisualStyleBackColor = false;
 			this->button4->Click += gcnew System::EventHandler(this, &FrmMenu::button4_Click);
 			// 
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Uighur", 48, static_cast<System::Drawing::FontStyle>((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic)),
+			this->label2->Font = (gcnew System::Drawing::Font(L"Times New Roman", 54, static_cast<System::Drawing::FontStyle>((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic)),
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
-			this->label2->Location = System::Drawing::Point(70, 22);
+			this->label2->Location = System::Drawing::Point(37, 42);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(436, 75);
+			this->label2->Size = System::Drawing::Size(528, 81);
 			this->label2->TabIndex = 6;
-			this->label2->Text = L"Grupo II - Proyecto 4";
+			this->label2->Text = L"Avianca Express";
 			// 
 			// integ
 			// 
+			this->integ->BackColor = System::Drawing::SystemColors::GradientActiveCaption;
 			this->integ->Location = System::Drawing::Point(94, 461);
 			this->integ->Name = L"integ";
 			this->integ->Size = System::Drawing::Size(151, 49);
 			this->integ->TabIndex = 7;
 			this->integ->Text = L"Integrantes";
-			this->integ->UseVisualStyleBackColor = true;
+			this->integ->UseVisualStyleBackColor = false;
 			this->integ->Click += gcnew System::EventHandler(this, &FrmMenu::integ_Click);
 			// 
 			// label3
@@ -148,7 +159,7 @@ namespace FormsMDis {
 			this->label3->AutoSize = true;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Uighur", 48, static_cast<System::Drawing::FontStyle>((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic)),
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
-			this->label3->Location = System::Drawing::Point(178, 365);
+			this->label3->Location = System::Drawing::Point(187, 383);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(219, 75);
 			this->label3->TabIndex = 8;

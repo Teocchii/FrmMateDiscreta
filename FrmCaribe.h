@@ -234,6 +234,14 @@ namespace FormsMDis {
 #pragma endregion
 	private: System::Void Seleccionar1_Click(System::Object^ sender, System::EventArgs^ e) {
 		int o = System::Convert::ToInt16(comboBoxO_CA->Text);
+		string terminalesca[25]
+		{ "Lima","Guayaquil","Quito","Cali","Bogota","Medellin","Ciudad de Panama",
+			"San Jose de Costa Rica","Liberia","Managua","Tegucigalpa","San Salvador","La Ceiba","Roatan",
+			"San Pedro de Sula","Ciudad de Guatemala","Flores","Belice","Cancun","Ciudad de Mexico","La Habana",
+			"Santo Domingo","Punta Cana","San Juan","Caracas"
+		};
+
+		
 		switch (o)
 		{
 		case 0:
